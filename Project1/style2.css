@@ -1,0 +1,295 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*
+*  Top Bar
+*/
+.x-top-bar {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: relative;
+    margin: 0;
+    padding: 50px 0px;
+    overflow: hidden;
+    background-color: #333333;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*
+*  Top Bar
+*/
+
+.x-top-bar .left {
+    margin-left: 10px;
+}
+
+.x-top-bar .middle {
+    display: flex;
+    gap: 10%;
+}
+
+.x-nav-href {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+/*
+* Logo Styling
+*/
+.x-logo {
+    width: 10%;
+    height: 0%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* -----------------company----------------------- */
+.company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content:right;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  
+}
+
+.img {
+  width: 100%;
+  margin: 1rem 0rem 0rem 2rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.company-info {
+  width: 100%;
+  margin-right: 4rem;
+}
+
+.company-info span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.company-info span .our {
+  color: #ffdc0e;
+}
+
+.company-info p{
+  font-size: 1.1rem;
+}
+/* ----------------------------------------------- */
+
+.team  {
+  display: flex;
+  justify-content: center;
+}
+
+.team span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 4px solid #ffdc0e;
+}
+
+.profile__img  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile_img span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-bottom: 4px solid #ffdc0e;
+  }
+
+.container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  max-width: 350px;
+  width: 350px;
+  margin: 20px;
+  border-radius: 2px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.card-image {
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  visibility: hidden;
+}
+
+.card-title span {
+  visibility: hidden;
+}
+
+.yellow-surname {
+  color: #ffdc0e;
+}
+
+.card-description span {
+  visibility: hidden;
+}
+
+.card-mediaIcons a i {
+  visibility: hidden;
+}
+
+.card-info {
+  position: relative;
+  color: #222;
+  padding: 20px;
+}
+
+.card-info h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-info h4 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.card-info a {
+  text-decoration: none;
+  color: navy;
+}
+
+.card-info p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.card-info .card-mediaIcons {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly; /* or other value like 'center', 'space-around', etc. */
+    align-items: center;
+}
+
+.card-info .card-mediaIcons a {
+    color: #999;
+    font-size: 1.4em;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: color 0.3s ease;
+}
+
+.card-info .card-mediaIcons a:hover {
+  color: #222;
+}
+
+.card-mediaIcons a img {
+  width: 40px;
+}
+
+.loading {
+  position: relative;
+  background: #e2e2e2;
+  overflow: hidden;
+}
+
+.loading:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transform: translateX(-100%);
+  animation: loading 1.5s infinite;
+}
+
+.info {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@keyframes loading {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.profile__img {
+    padding:  20px ;
+  }
+  
+  .profile__img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: auto;
+  }
+
+  div.b {
+    font-size: large;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 30px 40px;
+  }

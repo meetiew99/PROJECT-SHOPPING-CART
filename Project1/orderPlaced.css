@@ -1,0 +1,138 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#orderContainer
+{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    margin: auto;
+    text-align: center;
+}
+#orderContainer i
+{
+    color: rgb(5, 187, 5);
+    padding-bottom: 30px;
+    font-size: 10em;
+}
+#aboutCheck p
+{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#aboutCheck h1
+{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+/*
+*  Top Bar
+*/
+.x-top-bar {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: relative;
+    margin: 0;
+    padding: 10px 0px;
+    overflow: hidden;
+    background-color: #333333;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+*  Top Bar
+*/
+.x-modern-cart {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+}
+/*
+*  Top Bar
+*/
+.x-modern-cart i {
+    font-size: 48px;
+    color: aliceblue;
+    cursor: pointer;
+}
+/*
+*  Top Bar
+*/
+.x-cart-quantity {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    margin-left: 32px;
+    background-color: royalblue;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    padding: 4px 10px;
+}
+
+.x-top-bar .left {
+    margin-left: 20px;
+}
+
+.x-top-bar .middle {
+    display: flex;
+    gap: 50px;
+}
+
+.x-nav-href {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*
+* Logo Styling
+*/
+.x-logo {
+    width: 30%;
+    height: 0%;
+
+}
+
+
+
+/* ----------------------------- MEDIA QUERY --------------------------- */
+
+@media(max-width: 700px)
+{
+    #orderContainer i
+    {
+        font-size: 8em;
+        padding-bottom: 30px;
+    }
+    h1
+    {
+        font-size: 18px;
+    }
+    p
+    {
+        font-size: 15px;
+    }
+}
